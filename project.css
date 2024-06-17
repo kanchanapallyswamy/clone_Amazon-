@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: border-box;
+    font-family: Arial;
+    }
+
+    .navbar{
+        background-color: #0f1111;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        color: white;
+        justify-content: space-evenly;
+        /* position:sticky; */
+
+    }
+.outer_logo{
+    height: 50px;
+    width:100px;
+    margin-left: 10px;
+    
+}
+.logo{
+background-image: url("ama_logo.jpg");
+background-size: cover;
+height: 50px;
+width: 100%;
+
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border:2px solid white;
+    border-radius: 2px;
+}
+
+.icon_frst{
+    font-size: 10px;
+    margin-left: 15px;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+}
+.icon_scnd{
+    margin-left: 3px;
+}
+
+.search_bar{
+    background-color: orange;
+    height:40px;
+    width: 600px;
+    display: flex;
+    border-radius: 2px;
+    border: none;
+}
+.search_select{
+    text-align: center;
+    border: none;
+    background-color: #b6bebe;
+}
+.search_mag{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    align-items: center;
+    font-size: 1.4rem;
+}
+.search_input{
+    width:100%;
+    border: none;padding: 5px;
+    font-size: 1rem;
+}
+.search_bar:hover{
+    border: 5px solid orange;
+}
+.sign_in{
+    font-size: 10px;
+    font-weight: 700;
+}
+.accounts{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.box_4{
+    font-size: 10px;
+    font-weight: 700;
+}
+.orders{
+    font-size: 16px;
+    font-weight: 700;
+}
+.cart{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.head{
+    height: 40px;
+    background-color: #262a2a;
+    color: white;
+    display: flex;
+    align-items: center;
+    
+}
+.all_{
+    margin-left: 5px;
+}
+.all{
+    margin-left: 30px;
+    display: flex;
+    margin-right: 5px;
+}
+.deals p{
+    display:inline;
+    margin-left:25px;
+    
+}
+.deals p:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+}
+.hero_section{
+    background-image: url("hero_image.jpg");
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+      }
+.hero_msg{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width:80% ;
+    margin-bottom: 35px;
+}
+.hero_msg a{
+    color: green;
+}
+.box{
+    height: 400px;
+    width: 20%;
+    border:0.5px solid white;
+   
+    background-color: rgb(246, 221, 234);
+    margin-top:15px;
+
+   
+}
+.box_section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.box_content{
+    padding: 10px;
+}
+.box_img{
+   height: 250px;
+     background-size: cover;
+   background-repeat: no-repeat;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+}
+.box_section a{
+    color:green;
+}
+.footer1{
+    background-color: #262a2a;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+.footer2{
+    background-color: #232f32;
+    height: 300px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+ul{
+    margin-top: 25px;
+}
+ul p{
+    font-size: 1.5rem;
+}
+ul a{
+    display: block;
+    margin-top: 8px;
+    font-size: 1rem;
+}
+
+.footer3{
+    background-color: #0f1111;
+    height: 100px;
+    border-top: 1px solid white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fot_logo{
+    background-image: url("ama_logo.jpg");
+background-size: cover;
+height: 50px;
+width: 100px;
+
+}
+
+.footer4{
+    background-color: #232f32;
+    height: 80px;
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+    
+}
+
+.footer4 a{
+    color:white;
+    margin-left: 130px;
+    margin-top: 50px;
+    text-decoration: none;
+   
+}
+
+.adr{
+    margin-top: 15px;
+}
